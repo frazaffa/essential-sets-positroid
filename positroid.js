@@ -72,6 +72,7 @@ function run() {
     commands = document.getElementById("input-area").value;
     mylogging("Running Command:" + commands, true);
     eval(commands);
+    createTable();
     refresh();
     
 }
